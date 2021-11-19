@@ -36,21 +36,93 @@
     <div class="w-100 text-start py-3 px-4">
         <h3 class="display-6 fw-bold mt-5 text-muted">IFFMC Data Documentation</h3>
         <p><strong>Note:</strong> The documentation is very bare bones at the minute, and will be expanded upon at a future date.</p>
-        <h2 class="display-4 fw-bold mt-5">How do I add my route to the database?</h2>
-        <p>The video below shows how to add a route to the database.<br>
-        <strong>Databse Link:</strong> <a href="https://github.com/Sam-Neale/IFFMC-Data">https://github.com/Sam-Neale/IFFMC-Data</a>
-        </p>
-        <video height="300" controls>
-            <source src="./assets/videos/HowToAdd.mov">
-            Your browser does not support the video tag.
-        </video>
-        <h2 class="display-4 fw-bold mt-5">How do I add my route to IFFMC?</h2>
-        <p>The video below shows how to add a route to IFFMC. <strong>COMING SOON</strong></p>
-        <video height="300" controls>
-            <!-- <source src="/Users/samneale/Downloads/picsnvids_click.mov">-->
-            SOON
-        </video>
+        <h2 class="display-5 fw-bold mt-5">How do I add a route? <button class="btn btn-dark" onclick="toggleContent('HDIAAR-CONTENT')">Toggle Content</button></h2>
+        <div id="HDIAAR-CONTENT" class="d-none">
+            <p>The guidlines below indicate how to add a route to the database.</p>
+            <h3 class="display-6 fw-bold mt-5">Step 1. Navigate to the folder.</h3>
+            <p>Click the following link: <a href="https://github.com/Sam-Neale/IFFMC-Data/tree/master/routes" target="_blank">https://github.com/Sam-Neale/IFFMC-Data/tree/master/routes</a>, you should see something like the following:</p>
+            <img src="assets/images/tutorials/addRoute/step1.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 2. Copy the template.</h3>
+            <p>Open the <span class="font-monospace">TEMPLATE.JSON</span> file, and copy the contents of the file.</p>
+            <img src="assets/images/tutorials/addRoute/step2.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 3. Create new file.</h3>
+            <p>Go back to the folder in step 1. Click the fork button in the top right corner of the page. Once the fork is created (Github Account required), make sure you are back in the routes folder, then click <span class="font-monospace">Add file</span>, <span class="font-monospace">Create new File</span></p>
+            <img src="assets/images/tutorials/addRoute/step3.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 4. Core Information.</h3>
+            <p>Once you create the file, name it a unique name that has not been used by any prior file, you should include the <span class="font-monospace fw-bold">.json</span> extension. In the <span class="font-monospace">Edit new file</span> area, paste the contents from the template. Set the <span class="font-monospace">name</span> to be the same as the file, just without the <span class="font-monospace fw-bold">.json</span> extension.</p>
+            <img src="assets/images/tutorials/addRoute/step4.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 5. Waypoints</h3>
+            <p>Now that all the core information is done, we can get to the fun part, adding the waypoints. Using the template, add the waypoint names to the list. Make sure that all waypoints <strong>(except the last one)</strong> have a comma after the last quotation mark.</p>
+            <img src="assets/images/tutorials/addRoute/step5.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 6. Save changes</h3>
+            <p>After creating the list, scroll down to the bottom of the page and click the <button class="btn btn-success">Commit new file</button> button. Adding comments in the title or description are optional and up to you. Make sure the <span class="font-monospace">Commit directly to the master branch</span> option is selected.</p>
+            <img src="assets/images/tutorials/addRoute/step6.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 7. Navigate to send for review</h3>
+            <p>Following saving changes, you need to send them for review. On the row containing options such as <code>Code</code>, <code>Pull requests</code>, <code>Actions</code>, etc, click the the <code>Pull requests</code> tab.</p>
+            <img src="assets/images/tutorials/addRoute/step7.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 8. Send for review</h3>
+            <p>Once on the pull requests page, click <button class="btn btn-primary">New pull request</button>, you should then be presented with something like below. Click <button class="btn btn-primary">New pull request</button> again.</p>
+            <img src="assets/images/tutorials/addRoute/step8.png" style="width: 75%; min-width: 300px;">
+            <hr class="mt-3">
+            <h3 class="display-6 fw-bold">Congratulations!</h3>
+            <p>Your route is awaiting approval from staff, you should recieve an email when it is approved/denied, allow 5-10 minutes to show up in IFFMC.</p>
+        </div>
+        <h2 class="display-5 fw-bold mt-5 d-none">How do I add a SID? <button class="btn btn-dark"
+                onclick="toggleContent('HDIAASID-CONTENT')">Toggle Content</button></h2>
+        <div id="HDIAASID-CONTENT" class="d-none">
+            <p>The guidlines below indicate how to add a route to the database.</p>
+            <h3 class="display-6 fw-bold mt-5">Step 1. Navigate to the folder.</h3>
+            <p>Click the following link: <a href="https://github.com/Sam-Neale/IFFMC-Data/tree/master/routes"
+                    target="_blank">https://github.com/Sam-Neale/IFFMC-Data/tree/master/routes</a>, you should see something
+                like the following:</p>
+            <img src="assets/images/tutorials/addRoute/step1.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 2. Copy the template.</h3>
+            <p>Open the <span class="font-monospace">TEMPLATE.JSON</span> file, and copy the contents of the file.</p>
+            <img src="assets/images/tutorials/addRoute/step2.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 3. Create new file.</h3>
+            <p>Go back to the folder in step 1. Click the fork button in the top right corner of the page. Once the fork is
+                created (Github Account required), make sure you are back in the routes folder, then click <span
+                    class="font-monospace">Add file</span>, <span class="font-monospace">Create new File</span></p>
+            <img src="assets/images/tutorials/addRoute/step3.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 4. Core Information.</h3>
+            <p>Once you create the file, name it a unique name that has not been used by any prior file, you should include the
+                <span class="font-monospace fw-bold">.json</span> extension. In the <span class="font-monospace">Edit new
+                    file</span> area, paste the contents from the template. Set the <span class="font-monospace">name</span> to
+                be the same as the file, just without the <span class="font-monospace fw-bold">.json</span> extension.</p>
+            <img src="assets/images/tutorials/addRoute/step4.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 5. Waypoints</h3>
+            <p>Now that all the core information is done, we can get to the fun part, adding the waypoints. Using the template,
+                add the waypoint names to the list. Make sure that all waypoints <strong>(except the last one)</strong> have a
+                comma after the last quotation mark.</p>
+            <img src="assets/images/tutorials/addRoute/step5.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 6. Save changes</h3>
+            <p>After creating the list, scroll down to the bottom of the page and click the <button
+                    class="btn btn-success">Commit new file</button> button. Adding comments in the title or description are
+                optional and up to you. Make sure the <span class="font-monospace">Commit directly to the master branch</span>
+                option is selected.</p>
+            <img src="assets/images/tutorials/addRoute/step6.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 7. Navigate to send for review</h3>
+            <p>Following saving changes, you need to send them for review. On the row containing options such as
+                <code>Code</code>, <code>Pull requests</code>, <code>Actions</code>, etc, click the the
+                <code>Pull requests</code> tab.</p>
+            <img src="assets/images/tutorials/addRoute/step7.png" style="width: 75%; min-width: 300px;">
+            <h3 class="display-6 fw-bold mt-5">Step 8. Send for review</h3>
+            <p>Once on the pull requests page, click <button class="btn btn-primary">New pull request</button>, you should then
+                be presented with something like below. Click <button class="btn btn-primary">New pull request</button> again.
+            </p>
+            <img src="assets/images/tutorials/addRoute/step8.png" style="width: 75%; min-width: 300px;">
+            <hr class="mt-3">
+            <h3 class="display-6 fw-bold">Congratulations!</h3>
+            <p>Your route is awaiting approval from staff, you should recieve an email when it is approved/denied, allow 5-10
+                minutes to show up in IFFMC.</p>
+        </div>
     </div>
+    <script>
+        function toggleContent(id){
+            const element = document.getElementById(id);
+            element.classList.toggle('d-none');
+        }
+    </script>
 </body>
 
 </html>
