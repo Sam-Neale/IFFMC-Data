@@ -1,0 +1,37 @@
+{
+    "airport": "KLAX",
+    "type": "STAR",
+    "transitions": {
+        "EHF":[
+            "EHF",
+            "ARVIN",
+            "AMONT",
+            "LOPES",
+            "LHS",
+            "SAUGS",
+            "KIMMO",
+            "DARTS"
+        ],
+        "LHS":[
+            "LHS",
+            "SAUGS",
+            "KIMMO",
+            "DARTS"
+        ],
+        "PMD":[
+            "PMD",
+            "KIMMO",
+            "DARTS"
+        ],
+        "TTE":[
+            "TTE",
+            "WRING",
+            "AMONT",
+            "LOPES",
+            "LHS",
+            "SAUGS",
+            "KIMMO",
+            "DARTS"
+        ]
+    }
+}
