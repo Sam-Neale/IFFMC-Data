@@ -1,0 +1,15 @@
+{
+    "airport": "KLAX",
+    "type": "SID",
+    "transitions":{
+        "RZS":[
+            "VTU",
+            "RZS"
+        ],
+        "DINTY": [
+            "VTU",
+            "SUDDO",
+            "DINTY"
+        ]
+    }
+}
