@@ -1,6 +1,7 @@
 {
     "airport": "KLAX",
     "type": "SID",
+    "runways": ["06B", "07B", "24B", "25B"],
     "transitions":{
         "RZS":[
             "VTU",
