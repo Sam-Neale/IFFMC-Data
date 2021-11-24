@@ -1,1 +1,17 @@
-
+{
+    "airport": "EGKK",
+    "type": "SID",
+    "runways": ["08L", "08R", "26R", "26L"],
+    "transitions":{
+        "":[
+            "23IWW",
+            "MAY13",
+            "MAY09",
+            "MAY",
+            "TIGER",
+            "DET",
+            "DAGGA",
+            "CLN"
+        ]
+    }
+}
