@@ -1,0 +1,16 @@
+{
+    "airport": "EGKK",
+    "type": "SID",
+    "runways": ["08L", "08R", "26R", "26L"],
+    "transitions":{
+        "":[
+            "23DME",
+            "DET31",
+            "DET29",
+            "ACORN",
+            "319DV",
+            "DET",
+            "FRANE"
+        ]
+    }
+}
