@@ -1,0 +1,16 @@
+{
+    "airport": "LGAV",
+    "type": "STAR",
+    "runways": [
+        "03L",
+        "03R",
+        "21L",
+        "21R"
+    ],
+    "transitions": {
+        "": [
+            "BADEL",
+            "PELAG"
+        ]
+    }
+}
