@@ -2,7 +2,10 @@
     "airport": "EGKK",
     "type": "SID",
     "runways": [
-        "26L"
+        "26L",
+        "26R",
+        "08L",
+        "08R"
     ],
     "transitions": {
         "": [
