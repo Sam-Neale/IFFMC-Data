@@ -1,0 +1,15 @@
+{
+    "airport": "EGKK",
+    "type": "SID",
+    "runways": [
+        "08R"
+    ],
+    "transitions": {
+        "": [
+            "KKE05",
+            "KKN09",
+            "KKW19",
+            "IMVUR"
+        ]
+    }
+}
